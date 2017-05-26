@@ -1,0 +1,55 @@
+<header class="menu fluid" id="notification-header">
+	<section class="wrap logo notify">
+
+		<a href="dashboard.html" class="three wide column left floated">
+			<section class="logo-header ">
+				<div>
+					<img src="images/core/kemenkumham.png" alt="">
+				</div>
+				<div class="logo-text">
+					<h1>Aplikasi Penyelarasan Naskah Akademik</h1>
+				</div>
+			</section>
+		</a>
+
+		<section v-show="checkLogin">
+			<div class="notification">
+				<!-- {{checkLogin}} -->
+					<div class="button" v-on:click="openNotif = !openNotif">
+						<i class="icon outline mail"></i>
+						<div class="floating ui red small circle label">{{list.length}}</div>
+					</div>
+					<ul class="red raised notify ui segment" v-if="openNotif">
+						<li v-for="data in list">
+							<p>Tanggapan : {{data.title}}</p>
+							<p>Dari : {{data.from}}</p>
+							<p class="ui date">{{data.since}}</p>
+
+						</li>
+					</ul>
+			</div>
+		</section>
+
+	</section>
+
+	<div id="user-control" class="user-control four wide column right floated hidden">
+		<div id="user-exist" class="ui floating right labeled yellow icon dropdown button">
+		  <div id="username-label"></div>
+		  <i class="dropdown icon"></i>
+		  <!-- Dropdown <i class="dropdown icon"></i> -->
+		  <div class="menu">
+			  <div class="item" id=""><a href="profile.html">Profile</a></div>
+			  <div class="item" id=""><a href="index.html">Halaman Depan</a></div>
+		    <div class="item" id="logout">Logout</div>
+		  </div>
+		</div>
+		<div id="user-unexist" class="user-control three wide column right floated hidden">
+			<a href="login.html" class="ui button blue floating right">Login</a>
+		</div>
+	</div>
+
+	<div class="mobile-menu" id="menu-trigger">
+		<i class="icon ellipsis vertical"></i>
+	</div>
+
+</header>

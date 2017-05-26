@@ -1,0 +1,70 @@
+{
+	"naskah": [
+		{
+			"id": 1,
+			"title": "Naskah Akademik RUU Tentang Pajak Pertambahan Nilai Barang Dan Jasa",
+			"description": "Naskah akdemik ini merupakan naskah akademik untuk RUU tentang pajak pertambahan nilai barang dan jasa. Semakin banyaknya barang dan jasa yang ada di Indonesia namun banyak diantara mereka yang tidak membayar pajak ",
+			"moreDescription": "pertambahan nilai barang dan jasa. Semakin banyaknya barang dan jasa yang ada di Indonesia namun banyak diantara mereka yang tidak membayar pajak ini merupakan naskah akademik untuk RUU tentang pajak pertambahan nilai barang.",
+			"status": "teregister",
+			"writeText": false,
+			"more": false,
+			"tanggapan": [
+				{
+					"nama": "David Purba",
+					"date": "Senin, 1 Mei 2017, 16:41",
+					"tanggapan": "dalam menyelesaikan masalah perpajakan untuk pertambahan nilai barand dan jasa, di perlukan kerja sama seluruh lapisan elemen masyarakat. Pemerintah dalam hal ini berperan penting untuk mensosialisasikan nilai pajak dalam setiap barang dan jasa"
+				},
+				{
+					"nama": "Kementrian Keuangan",
+					"date": "Rabu, 9 Maret 2017, 19:11",
+					"tanggapan": "dalam menyelesaikan masalah perpajakan untuk pertambahan nilai barand dan jasa, di perlukan kerja sama seluruh lapisan elemen masyarakat. Pemerintah dalam hal ini berperan penting untuk mensosialisasikan nilai pajak dalam setiap barang dan jasa"
+				}
+			],
+			"pendukung": ["word", "excel", "pdf"]
+		},
+		{
+			"id": 2,
+			"title": "Naskah Akademik RUU Tentang Kepalangmerahan",
+			"description": "Naskah akdemik ini merupakan naskah akademik untuk RUU tentang pajak pertambahan nilai barang dan jasa. Semakin banyaknya barang dan jasa yang ada di Indonesia namun banyak diantara mereka yang tidak membayar pajak ",
+			"moreDescription": "pertambahan nilai barang dan jasa. Semakin banyaknya barang dan jasa yang ada di Indonesia namun banyak diantara mereka yang tidak membayar pajak ini merupakan naskah akademik untuk RUU tentang pajak pertambahan nilai barang.",
+			"status": "perbaikan",
+			"writeText": false,
+			"more": false,
+			"tanggapan": [
+				{
+					"nama": "David Purba",
+					"date": "Senin, 1 Mei 2017, 16:41",
+					"tanggapan": "dalam menyelesaikan masalah perpajakan untuk pertambahan nilai barand dan jasa, di perlukan kerja sama seluruh lapisan elemen masyarakat. Pemerintah dalam hal ini berperan penting untuk mensosialisasikan nilai pajak dalam setiap barang dan jasa"
+				},
+				{
+					"nama": "Kementrian Keuangan",
+					"date": "Rabu, 9 Maret 2017, 19:11",
+					"tanggapan": "dalam menyelesaikan masalah perpajakan untuk pertambahan nilai barand dan jasa, di perlukan kerja sama seluruh lapisan elemen masyarakat. Pemerintah dalam hal ini berperan penting untuk mensosialisasikan nilai pajak dalam setiap barang dan jasa"
+				}
+			],
+			"pendukung": ["word", "excel", "pdf"]
+		},
+		{
+			"id": 3,
+			"title": "Naskah Akademik RUU Tentang Pajak Pertambahan Nilai Barang Dan Jasa",
+			"description": "Naskah akdemik ini merupakan naskah akademik untuk RUU tentang pajak pertambahan nilai barang dan jasa. Semakin banyaknya barang dan jasa yang ada di Indonesia namun banyak diantara mereka yang tidak membayar pajak ",
+			"moreDescription": "pertambahan nilai barang dan jasa. Semakin banyaknya barang dan jasa yang ada di Indonesia namun banyak diantara mereka yang tidak membayar pajak ini merupakan naskah akademik untuk RUU tentang pajak pertambahan nilai barang.",
+			"status": "penyelarasan",
+			"writeText": false,
+			"more": false,
+			"tanggapan": [
+				{
+					"nama": "David Purba",
+					"date": "Senin, 1 Mei 2017, 16:41",
+					"tanggapan": "dalam menyelesaikan masalah perpajakan untuk pertambahan nilai barand dan jasa, di perlukan kerja sama seluruh lapisan elemen masyarakat. Pemerintah dalam hal ini berperan penting untuk mensosialisasikan nilai pajak dalam setiap barang dan jasa"
+				},
+				{
+					"nama": "Kementrian Keuangan",
+					"date": "Rabu, 9 Maret 2017, 19:11",
+					"tanggapan": "dalam menyelesaikan masalah perpajakan untuk pertambahan nilai barand dan jasa, di perlukan kerja sama seluruh lapisan elemen masyarakat. Pemerintah dalam hal ini berperan penting untuk mensosialisasikan nilai pajak dalam setiap barang dan jasa"
+				}
+			],
+			"pendukung": ["word", "excel", "pdf"]
+		}
+	]
+}

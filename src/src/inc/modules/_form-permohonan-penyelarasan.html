@@ -1,0 +1,216 @@
+<a href="permohonan.html" class="ui button blue">Daftar Permohonan</a>
+<div class="ui segment">
+	<div class="ui form">
+		<h2 class="ui dividing header">Form Permohonan Penyelarasan</h2>
+	  <div class="inline fields proper">
+	    <div class="ten wide field">
+	      <label class="field-label">Surat Permohonan</label>
+	      <input type="text" placeholder="Masukan Nomor Surat Permohonan" name="no-surat-permohonan">
+	    </div>
+	    <div class="five wide field">
+	      <div class="ui action input file">
+				  <input type="file">
+				  <div class="ui icon button">
+				    <i class="attach icon"></i>
+				  </div>
+				</div>
+	    </div>
+	  </div>
+
+	  <div class="inline fields proper">
+	    <div class="ten wide field">
+	      <label class="field-label">Judul Naskah Akademik</label>
+	      <input type="text" placeholder="Masukan Judul NA" name="judul-permohonan">
+	    </div>
+	    <div class="five wide field">
+	      <div class="ui action input file">
+				  <input type="file">
+				  <div class="ui icon button">
+				    <i class="attach icon"></i>
+				  </div>
+				</div>
+	    </div>
+	  </div>
+
+	  <div class="inline fields proper">
+	    <div class="ten wide field">
+	      <label class="field-label">Judul RUU</label>
+	      <input type="text" placeholder="Masukan Judul RUU" name="judul-ruu">
+	    </div>
+	    <div class="five wide field">
+	      <div class="ui action input file">
+				  <input type="file">
+				  <div class="ui icon button">
+				    <i class="attach icon"></i>
+				  </div>
+				</div>
+	    </div>
+	  </div>
+
+	  <div class="inline fields proper">
+	    <div class="eleven wide field">
+	      <label class="field-label">Judul Pada Prolegnas</label>
+	      <div class="inline fields block">
+	      	<div id="prolegnas-ruu" class="field">
+			      <div class="ui radio checkbox prolegnas">
+			        <input type="radio" name="fruit" checked="" tabindex="0" class="hidden">
+			        <label>Daftar RUU</label>
+			      </div>
+			    </div>
+			    <div id="prolegnas-ruu-kt" class="field">
+			      <div class="ui radio checkbox prolegnas">
+			        <input type="radio" name="fruit" tabindex="0" class="hidden">
+			        <label>Daftar RUU Kumulatif Terbuka</label>
+			      </div>
+			    </div>
+	      </div>
+	    </div>
+	  </div>
+
+		<div id="daftar-ruu-wrapper">
+		  <div class="inline fields proper">
+		  	<div class="ten wide field">
+		      <label class="field-label"> </label>
+		      <div class="ui fluid search selection dropdown block">
+			      <input type="hidden" name="receipt">
+			      <i class="dropdown icon"></i>
+			      <div class="default text">Pilih Judul</div>
+			      <div class="menu">
+			        <div class="item" data-value="judul-1" data-text="Judul Pertama">
+			          Judul Pertama
+			        </div>
+			        <div class="item" data-value="judul-2" data-text="Judul Kedua">
+			          Judul Kedua
+			        </div>
+			        <div class="item" data-value="judul-3" data-text="Judul Ketiga">
+			          Judul Ketiga
+			        </div>
+			      </div>
+			    </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div id="daftar-ruu-kt-wrapper">
+			<div class="inline fields proper">
+		    <div class="sixteen wide field">
+		      <label class="field-label"> </label>
+		      <div class="inline fields block">
+		      	<div class="field" id="mkInternational-mk">
+				      <div class="ui radio checkbox">
+				        <input type="radio" name="daftar-ruu" checked="" tabindex="0" class="hidden">
+				        <label>Pelaksaan Putusan Mahkamah Konstitusi</label>
+				      </div>
+				    </div>
+				    <div class="field" id="mkInternational-int">
+				      <div class="ui radio checkbox">
+				        <input type="radio" name="daftar-ruu" tabindex="0" class="hidden">
+				        <label>Pengesahan Perjanjian Internasional</label>
+				      </div>
+				    </div>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="inline fields proper">
+		    <div class="ten wide field">
+		      <label class="field-label"> </label>
+		      <input type="text" placeholder="Judul RUU">
+		    </div>
+		    <div class="six">
+		    	<div class="ui calendar" id="date">
+				    <div class="ui input left icon">
+				      <i class="calendar icon"></i>
+				      <input type="text" placeholder="Date/Time">
+				    </div>
+				  </div>
+		    </div>
+		  </div>
+
+		  <div class="inline fields proper" >
+		    <div class="ten wide field">
+		      <label class="field-label"> </label>
+		      <input type="text" id="time-pick-one" placeholder="Nomor dan Tahun Surat Ijin Prakarsa">
+		    </div>
+		  </div>
+
+		  <div class="inline fields proper">
+		    <div class="ten wide field">
+		      <label class="field-label"> </label>
+		      <div class="ui action input file">
+					  <input type="file">
+					  <div class="ui icon button">
+					    <i class="attach icon"></i>
+					  </div>
+					</div>
+		    </div>
+		  </div>
+
+		 <section id="mkInternational-int-wrapper">
+		  	<div class="inline fields proper">
+			    <div class="ten wide field">
+			      <label class="field-label"> </label>
+			      <input type="text" placeholder="Nomor Perjanjian Internasional">
+			    </div>
+			  </div>
+
+			  <div class="inline fields proper">
+			    <div class="ten wide field">
+			      <label class="field-label"> </label>
+			      <div class="ui action input file">
+						  <input type="file">
+						  <div class="ui icon button">
+						    <i class="attach icon"></i>
+						  </div>
+						</div>
+			    </div>
+			  </div>
+		  </section>
+
+		  <section id="mkInternational-mk-wrapper">
+		  	<div class="inline fields proper">
+			    <div class="ten wide field">
+			      <label class="field-label"> </label>
+			      <input type="text" placeholder="Nomor Putusan MK">
+			    </div>
+			  </div>
+
+			  <div class="inline fields proper">
+			    <div class="ten wide field">
+			      <label class="field-label"> </label>
+			      <div class="ui action input file">
+						  <input type="file">
+						  <div class="ui icon button">
+						    <i class="attach icon"></i>
+						  </div>
+						</div>
+			    </div>
+			  </div>
+		  </section>
+
+		</div>
+
+		<div class="inline fields proper">
+	    <div class="ten wide field">
+	      <label class="field-label">Deskripsi</label>
+	      <textarea name="" id=""  rows="5"></textarea>
+	    </div>
+	  </div>
+
+
+	  <div class="ui checkbox checkbox2 block flex">
+		  <input type="checkbox" tabindex="0" class="hidden" name="read-carefull">
+		  <label>
+				<div class="ui large yellow label">
+					Saya bertanggung jawab terhadap kebenaran data yang ada		
+				</div>
+		  </label>
+		</div>
+
+
+
+	  <div id="pratinjau" class="ui submit green button">Pratinjau</div>
+
+	</div>
+	
+</div>

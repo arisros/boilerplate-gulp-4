@@ -1,0 +1,57 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+@primaryColor   : #D29F1D;
+@secondaryColor : @grey;
+@red            : #CD3C4B;
+@orange         : #F88D13;
+@yellow         : #FFD700;
+@olive          : #32CD32;
+@green          : #56C98A;
+@teal           : #008080;
+@blue           : #1a1a35;
+@violet         : #EE82EE;
+@purple         : #B413EC;
+@pink           : #FF1493;
+@brown          : #A52A2A;
+@grey           : #EEF1F8;
+@black          : #3B3B3B;
+
+/*-------------------
+       Fonts
+--------------------*/
+
+@fontName          : 'Lato';
+@fontSmoothing     : antialiased;
+
+@headerFont        : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+@googleFontName    : @fontName;
+@importGoogleFonts : true;
+@googleFontSizes   : '400,700,400italic,700italic';
+@googleSubset      : 'latin';
+
+@googleProtocol    : 'https://';
+@googleFontRequest : '@{googleFontName}:@{googleFontSizes}&subset=@{googleSubset}';
+
+/*-------------------
+      Base Sizes
+--------------------*/
+
+/* This is the single variable that controls them all */
+@emSize   : 16px;
+
+/* The size of page text  */
+@fontSize : 14px;
+
+/*-------------------
+     Breakpoints
+--------------------*/
+
+@mobileBreakpoint            : 320px;
+@tabletBreakpoint            : 768px;
+@computerBreakpoint          : 992px;
+@largeMonitorBreakpoint      : 1020px;
+@widescreenMonitorBreakpoint : 1020px;

@@ -1,0 +1,25 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"username": "ahu",
+			"name": "Ahu Joko",
+			"dept": "bphn",
+			"password": "secret"
+		},
+		{
+			"id": 2,
+			"username": "done",
+			"name": "Susilo",
+			"dept": "konsumer",
+			"password": "secret"
+		},
+		{
+			"id": 3,
+			"username": "kemenkeu",
+			"name": "Kementrian Keuangan",
+			"dept": "kementrian-keuangan",
+			"password": "secret"
+		}
+	]
+}

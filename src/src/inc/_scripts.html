@@ -1,0 +1,22 @@
+
+
+<!-- @if ENV='dev' -->
+<script src="https://unpkg.com/vue@2.3.3/dist/vue.min.js"></script>
+<script
+	src="https://code.jquery.com/jquery-3.1.1.min.js"
+	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	crossorigin="anonymous"></script>
+<script src="lib/semantic/semantic.js"></script>
+<script src="scripts/vendor.js"></script>
+<script src="scripts/main.js"></script>
+<!-- @endif -->
+<!-- @if ENV='prod' -->
+<script src="https://unpkg.com/vue@2.3.3/dist/vue.min.js"></script>
+<script
+	src="https://code.jquery.com/jquery-3.1.1.min.js"
+	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	crossorigin="anonymous"></script>
+<script src="lib/semantic/semantic.min.js"></script>
+<script src="scripts/vendor.min.js"></script>
+<script src="scripts/main.min.js"></script>
+<!-- @endif -->

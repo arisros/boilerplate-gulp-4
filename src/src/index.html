@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- @include inc/_meta-title.html -->
+
+	<!-- @if ENV='dev' -->
+	<link rel="stylesheet" href="lib/semantic/semantic.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<!-- @endif -->
+	<!-- @if ENV='prod' -->
+	<link rel="stylesheet" href="lib/semantic/semantic.min.css">
+	<link rel="stylesheet" href="styles/main.min.css">
+	<!-- @endif -->
+
+	<!-- @include inc/_meta.html -->
+
+	<!-- @include inc/_favicons.html -->
+</head>
+<body>
+	<!-- @include inc/_header-front.html -->
+	<!-- <div class="ui segment aligned center sub">
+		<h1 class="ui text center">Aplikasi Penyelarasan Naskah Akademik</h1>
+	</div> -->
+	<section class="ui container main">
+		<!-- @include inc/modules/_index.html -->
+	</section>
+	<!-- @include inc/_scripts.html -->
+	<!-- //@include inc/_analytics.html -->
+</body>
+</html>

@@ -1,0 +1,133 @@
+<div class="ui segment">
+  <a href="penyelarasan.html" class="ui button blue">Daftar Penyelarasan</a>
+  <a href="daftar-tanggapan.html" class="ui button blue relative">Daftar Tanggapan
+    <div class="floating ui red circle label">22</div>
+  </a>
+</div>
+<br>
+<div class="ui segment half">
+	<h2 class="ui dividing header">Penyelarasan Naskah Akademik</h2>
+	
+  <div class="ui raised segment">
+    <label class="ui green ribbon large label">Kementrian Kehutanan</label>
+    <h4 class="ui header medium">Perbaikan BAB1</h4>
+    <div class="ui date">22 Maret 2017</div>
+    <p>Berikut ini terlampir perbaikan BAB 1</p>
+    <p>Dokumen</p>
+    <ul class="support">
+      <li>
+        <h5 class="ui header huge">
+          <i class="ui file outline icon word"></i>
+        </h5>
+      </li>
+      <li>
+        <h5 class="ui header huge">
+          <i class="ui file outline icon excel"></i>
+        </h5>
+      </li>
+      <li>
+        <h5 class="ui header huge">
+          <i class="ui file outline icon word"></i>
+        </h5>
+      </li>
+    </ul>
+  </div>
+
+	<div class="ui raised segment">
+    <label class="ui red ribbon large label">Kementrian Keuangan</label>
+    <h4 class="ui header medium">Perbaikan BAB1</h4>
+    <div class="ui date">22 Maret 2017</div>
+    <p>Masih ada yang harus di perbaiki tolong perhatikan bagian merah</p>
+    <p>Dokumen</p>
+    <ul class="support">
+      <li>
+        <h5 class="ui header huge">
+          <i class="ui file outline icon word"></i>
+        </h5>
+      </li>
+      <li>
+        <h5 class="ui header huge">
+          <i class="ui file outline icon excel"></i>
+        </h5>
+      </li>
+      <li>
+        <h5 class="ui header huge">
+          <i class="ui file outline icon word"></i>
+        </h5>
+      </li>
+    </ul>
+  </div>
+
+  <div class="ui raised segment">
+    <label class="ui blue ribbon large label">Kementrian Perikanan</label>
+    <h4 class="ui header medium">Perbaikan BAB1</h4>
+    <div class="ui date">22 Maret 2017</div>
+    <p>Berikut ini terlampir perbaikan BAB 1</p>
+    <p>Dokumen</p>
+    <ul class="support">
+      <li>
+        <h5 class="ui header huge">
+          <i class="ui file outline icon word"></i>
+        </h5>
+      </li>
+      <li>
+        <h5 class="ui header huge">
+          <i class="ui file powerpoint icon excel"></i>
+        </h5>
+      </li>
+      <li>
+        <h5 class="ui header huge">
+          <i class="ui file outline icon word"></i>
+        </h5>
+      </li>
+    </ul>
+  </div>
+
+  <br>
+
+  <div class="ui segment ">
+    <div class="ui form">
+      <div class="field">
+        <input type="text" placeholder="Subject">
+      </div>
+      <div class="field">
+        <label>Alasan</label>
+        <textarea rows="4"></textarea>
+      </div>
+      <div class="inline fields block">
+        <div id="prolegnas-ruu" class="field">
+          <div class="ui radio checkbox prolegnas">
+            <input type="radio" name="fruit" checked="" tabindex="0" class="hidden">
+            <label>Final</label>
+          </div>
+        </div>
+        <div id="prolegnas-ruu-kt" class="field">
+          <div class="ui radio checkbox prolegnas">
+            <input type="radio" name="fruit" tabindex="0" class="hidden">
+            <label>Belum Final</label>
+          </div>
+        </div>
+      </div>
+      
+      <div class="ui action input fluid" v-if="data.writeText">
+        <input type="file" class="file">
+        <div class="ui icon button">
+          <i class="attach icon"></i>
+        </div>
+      </div>
+
+      <button class="ui button float right top gap green">Kirim</button>
+
+
+    </div>
+  </div>
+
+  <br>
+
+  <div class="ui segment">
+    <button class="ui button blue">
+      Penyelarasan Telah Selesai
+    </button>
+  </div>
+	
+</div>

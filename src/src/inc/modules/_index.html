@@ -1,0 +1,103 @@
+
+
+<h2 class="ui text center">
+	Naskah Akademik Yang Sedang Diselaraskan
+</h2>
+
+<div class="ui two column centered grid gap bottom">
+  <div class="column">
+  	<div class="ui input fluid">
+  		<input type="text" placeholder="Search..">
+  	</div>
+  </div>
+</div>
+
+<div id="list-naskah-front" class="list-naskah">
+  <div v-for="data in naskah.naskah" class="ui segment raised">
+		<h3>
+			{{ data.title }}
+		</h3>
+		<p>
+			{{ data.description }}
+			<span v-show="data.more">
+				{{ data.moreDescription }}
+			</span>
+		</p>
+		<div class="ui link" v-if="!data.more" v-on:click="data.more = !data.more">Lihat Selengkapnya</div>
+		<div class="ui link" v-if="data.more" v-on:click="data.more = !data.more">Minimalkan tampilan</div>
+		<p>Dokumen Pendukung:</p>
+		<br>
+		<ul class="support">
+			<li v-for="pendukung in data.pendukung">
+				<i class="ui file outline icon" 
+					v-bind:class="{ 
+						word : (pendukung === 'word'),
+						excel : (pendukung === 'excel'),
+						presentation : (pendukung === 'presentation') ,
+						pdf : (pendukung === 'pdf') 
+					}"></i>
+			</li>
+		</ul>
+		<div class="ui form gap">
+
+			<section v-show="!checkLogin">
+				<div class="ui input fluid" v-if="data.writeText">
+					<input type="text" id="nama-tanggapan" placeholder="Nama">
+				</div>
+				<div class="ui input fluid" v-if="data.writeText">
+					<input type="text" id="no-tanggapan" placeholder="Nomor Telepon">
+				</div>
+				<div class="ui input fluid" v-if="data.writeText">
+					<input type="text" id="email-tanggapan" placeholder="Email">
+				</div>
+				<div class="ui input fluid" v-if="data.writeText">
+					<input type="text" id="instansi-tanggapan" placeholder="Instansi / Pekerjaan">
+				</div>
+			</section>
+
+			<div class="ui input fluid" v-show="data.writeText">
+				<textarea name=""
+		    placeholder="Tulis Tanggapan" id="" rows="3"></textarea>
+			</div>
+			<!-- dummy -->
+			<div class="ui input fluid" v-show="!data.writeText">
+				<textarea name="" 
+		    v-on:click="data.writeText = !data.writeText" 
+		    placeholder="Tulis Tanggapan" id="" rows="1"></textarea>
+			</div>
+			<!-- end dummy -->
+
+			
+			<div class="ui action input fluid" v-if="data.writeText">
+			  <input type="file" class="file">
+			  <div class="ui icon button">
+			    <i class="attach icon"></i>
+			  </div>
+			</div>
+
+			<button class="ui button red" v-on:click="data.writeText = !data.writeText" v-if="data.writeText">Cancel</button>
+			<button class="ui button green" v-if="data.writeText">Submit</button>
+
+			<section v-show="data.more">
+				<div v-for="tanggapan in data.tanggapan" class="ui yellow raised segment">
+			    <h4 class="ui header medium">{{tanggapan.nama}}</h4>
+			    <div class="ui date">{{tanggapan.date}}</div>
+			    <p>
+			      {{tanggapan.tanggapan}}
+			      <!-- <a href="#">Lihat selengkapnya</a> -->
+			    </p>
+			    <p>Dokumen Terlampir</p>
+			    <ul class="support">
+			      <li>
+			        <h5 class="ui header huge">
+			          <i class="ui file outline icon word"></i>
+			        </h5>
+			      </li>
+			    </ul>
+			  </div>
+			</section>
+
+
+		</div>
+	</div>
+</div>

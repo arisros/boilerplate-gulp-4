@@ -1,0 +1,60 @@
+<div class="ui segment">
+  <a href="penyelarasan.html" class="ui button blue">Daftar Penyelarasan</a>
+  <a href="daftar-tanggapan.html" class="ui button blue relative">Daftar Tanggapan
+    <div class="floating ui red circle label">22</div>
+  </a>
+</div>
+<div class="ui segment" id="list-naskah">
+	<h3>Daftar Penyelarasan</h3>
+	<table class="ui celled table">
+	  <thead>
+	    <tr>
+	    	<th>No</th>
+		    <th>Judul Naskah Akademik</th>
+		    <th>Status</th>
+		    <th>Aksi</th>
+	  	</tr>
+  	</thead>
+	  <tbody>
+	  	<tr v-for="(data, index) in naskah.naskah">
+	  		<td>
+	  			{{data.id}}
+	  		</td>
+	  		<td>
+	  			{{data.title}}
+	  		</td>
+	  		<td>
+	  			<div v-show="data.status === 'perbaikan'">
+	  				<a href="form-perbaikan-permohonan-penyelarasan.html">
+	  					Perbaikan
+	  				</a>
+	  			</div>
+	  			<div v-show="data.status === 'penyelarasan'">Penyelarasan</div>
+	  			<div v-show="data.status === 'teregister'">Teregister</div>
+	  		</td>
+	  		<td>
+	  			<a href="detail-ruu.html">Detail</a>
+	  		</td>
+	  	</tr>
+	  
+	  </tbody>
+	  <tfoot>
+	    <tr>
+	    	<th colspan="4">
+		      <div class="ui right floated pagination menu">
+		        <a class="icon item">
+		          <i class="left chevron icon"></i>
+		        </a>
+		        <a class="item">1</a>
+		        <a class="item">2</a>
+		        <a class="item">3</a>
+		        <a class="item">4</a>
+		        <a class="icon item">
+		          <i class="right chevron icon"></i>
+		        </a>
+		      </div>
+		    </th>
+		  </tr>
+	  </tfoot>
+	</table>
+</div>

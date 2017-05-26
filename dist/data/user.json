@@ -1,0 +1,53 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"username": "pariwisata",
+			"name": "Kementriawan Pariwisata",
+			"dept": "user",
+			"password": "secret"
+		},
+		{
+			"id": 2,
+			"username": "staff",
+			"name": "Administrator BPHN",
+			"dept": "staff",
+			"password": "secret"
+		},
+		{
+			"id": 3,
+			"username": "kemenkeu",
+			"name": "Kementrian Keuangan",
+			"dept": "user",
+			"password": "secret"
+		},
+		{
+			"id": 4,
+			"username": "perikanan",
+			"name": "Kementrian Perikanan",
+			"dept": "user",
+			"password": "secret"
+		},
+		{
+			"id": 5,
+			"username": "industri",
+			"name": "Kementrian Industri",
+			"dept": "user",
+			"password": "secret"
+		},
+		{
+			"id": 6,
+			"username": "kapusren",
+			"name": "Kapusren BPHN",
+			"dept": "staff",
+			"password": "secret"
+		},
+		{
+			"id": 7,
+			"username": "kepala",
+			"name": "Kepala BPHN",
+			"dept": "staff",
+			"password": "secret"
+		}
+	]
+}

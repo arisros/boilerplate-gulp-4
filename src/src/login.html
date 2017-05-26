@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- @include inc/_meta-title.html -->
+
+	<!-- @if ENV='dev' -->
+	<link rel="stylesheet" href="lib/semantic/semantic.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<!-- @endif -->
+	<!-- @if ENV='prod' -->
+	<link rel="stylesheet" href="lib/semantic/semantic.min.css">
+	<link rel="stylesheet" href="styles/main.min.css">
+	<!-- @endif -->
+
+	<!-- @include inc/_meta.html -->
+
+	<!-- @include inc/_favicons.html -->
+</head>
+<body class="body-login">
+	<div id="login" class="login">
+		<div class="logo">
+			<img src="images/core/kemenkumham.png" alt="logo-kemenkumham">
+		</div>
+		<div class="ui stacked segment">
+			<div class="ui input fluid">
+			  <input type="text" placeholder="Username">
+			</div>
+			<div class="ui input fluid">
+			  <input type="password" placeholder="Password">
+			</div>
+			<button class="ui button blue fluid">
+				Login
+			</button>
+		</div>
+	</div>
+	<!-- <div class="ui popup"></div> -->
+	<div id="notification" class="ui message">
+	  <!-- <i class="close icon"></i> -->
+	  <div class="header" id="title-message"></div>
+	  <p id="content-message"></p>
+	</div>
+	<!-- @include inc/_scripts.html -->
+
+	<!-- //@include inc/_analytics.html -->
+</body>
+</html>
