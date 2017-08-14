@@ -1,4 +1,5 @@
-Quick Boilerplate
+Comming soon
+<!-- Quick Boilerplate
 =========================
 
 ## Install
@@ -56,3 +57,4 @@ This command will give you a list of all tasks available and their description.
 ```bash
 gulp --tasks
 ```
+ -->
