@@ -137,7 +137,8 @@
   "aliasify": {
     "aliases": {
       "root": "./src/scripts",
-      "views": "./src/scripts/views"
+      "views": "./src/scripts/views",
+      "modules": "./src/scripts/modules"
     }
   }
 }
